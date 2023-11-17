@@ -66,11 +66,11 @@
 function mainProductPage(clickedProduct) {
   let myObj = product.find((el) => el.id === clickedProduct);
   localStorage.setItem("clickedItem", JSON.stringify(myObj));
+  window.location.href = "productView.html";
 }
 
 // console.log(mywe);
 
-// window.location.href = "productView.html";
 
 // let mainProductPage = () => {
 //   console.log(mywe);

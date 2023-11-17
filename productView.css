@@ -1,0 +1,14 @@
+*{
+    text-decoration: none;
+}
+.nav-list{
+    width: 90px;
+    height: 15px;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    display: flex !important;
+    justify-content: flex-start;
+    text-wrap: nowrap;
+    align-items: center;
+}
