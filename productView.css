@@ -12,3 +12,18 @@
     text-wrap: nowrap;
     align-items: center;
 }
+.clickedItemImage{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.clickedIcon{
+    width: 100px;
+
+}
+.c-icon{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+}

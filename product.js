@@ -13,13 +13,13 @@
   productView.innerHTML = `<div class="nav-list">
   <span> ${clickedItem.brand} </span>
   </div> `;
-  mainInfo.innerHTML += `<div class="item-display" >
-                <div>
-                  <img src="${clickedItem.image}" alt="${clickedItem.brand}">
-                  <h3>SHARE THIS PRODUCT</h3>
-                  <div>
-                    <span> /**facebook**/</span>
-                    <span> /**twitter**/</span>
+  mainInfo.innerHTML += `<div class="item-display container d-flex" >
+                <div class='row'>
+                  <img src="${clickedItem.image}" alt="${clickedItem.brand}" class='clickedItemImage'>
+                  <h6>SHARE THIS PRODUCT</h6>
+                  <div class='d-flex align-items-center gap-2 clickedIcon''>
+                    <i class="fa-brands fa-facebook-f c-icon"></i>
+                    <i class="fa-brands fa-twitter c-icon"></i>
                   </div>
                 </div>
                 <div>
