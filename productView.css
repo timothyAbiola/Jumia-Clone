@@ -1,5 +1,10 @@
 *{
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
 }
 .nav-list{
     width: 90px;
@@ -13,8 +18,8 @@
     align-items: center;
 }
 .clickedItemImage{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 30px;
 }
 .clickedIcon{
@@ -25,5 +30,70 @@
     border: 1px solid black;
     border-radius: 100%;
     padding: 5px;
+    font-size: 10px;
     text-align: center;
+}
+
+.store-tag{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.heart{
+    width: 20px;
+    color: #F68B1E;
+}
+.official{
+    background-color: #276076;
+    width: 75px;
+    font-size: 10px;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+.brand{
+    font-size: 12px;
+}
+.pricing{
+    width: 300px;
+    /* background-color: red; */
+    text-align: center;
+}
+.initialPrice{
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.76);
+    text-align: center;
+    width: 80px;
+    font-size: 12px;
+}
+.clickedPrice{
+    /* background-color: #276076; */
+    text-align: center;
+    width: 100px;
+    font-size: 18px;
+}
+.itemLeft{
+    font-size: 10px;
+}
+hr{
+    margin: 0;
+}
+.shipping{
+    font-size: 10px;
+}
+.cartBtn{
+    background-color: #F68B1E;
+    border: none;
+    border-radius: 3px;
+}
+.cart{
+    text-align: start;
+    color: white;
+}
+.added{
+    font-size: 12px;
+    font-weight: 600;
+}
+.share{
+    font-size: 10px;
 }
